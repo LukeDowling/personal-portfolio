@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass+Mono");
+
+#contact-container {
+  background-color: antiquewhite;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 270px;
+  margin: 18vh auto 0;
+  font-family: "Overpass Mono";
+  padding: 30px;
+}
+
+#contact-heading {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+#email,
+#phone,
+#github,
+#freecodecamp {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 15px 0;
+}

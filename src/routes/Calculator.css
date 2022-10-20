@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Electrolize");
+
+#calculator-container {
+  border: 2px solid black;
+  margin: 25vh auto 0;
+  width: 300px;
+  background: mistyrose;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#calculator-expression {
+  margin-top: 10px;
+  min-height: 30px;
+  text-align: right;
+  width: 90%;
+  vertical-align: text-top;
+  line-height: 15px;
+  font-size: 0.8rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Electrolize";
+  background-color: wheat;
+  padding: 2px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#calculator-display {
+  background-color: wheat;
+  width: 90%;
+  word-wrap: break-word;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Electrolize";
+  padding: 2px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.calculator-button {
+  font-family: "Electrolize";
+  font-size: 25px;
+  margin: 1px;
+  background-color: ghostwhite;
+}
+
+#clear {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 3;
+}
+
+#zero {
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-row-end: 6;
+  grid-column-end: 3;
+}
+
+#equals {
+  grid-row-start: 4;
+  grid-column-start: 4;
+  grid-row-end: 6;
+  grid-column-end: 5;
+}
+
+#calculator-button-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0px;
+  height: 100%;
+  width: 90%;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i');
+
+#drum-display {
+  height: 100%;
+  padding-bottom: 37%;
+  margin-top: -20%;
+  padding-top: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#pad-display {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+#drum-machine {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  outline: none;
+}
+
+.drum-pad {
+  height: 13.5vh;
+  width: 13.5vh;
+  margin: 3px;
+  font-family: "Roboto Mono";
+  font-size: 25px;
+  outline: none;
+}
+
+#pad-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}

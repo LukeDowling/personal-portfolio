@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+#quote-text,
+#quote-author {
+  color: #deb0a0;
+}
+
+#quote-container {
+  margin: 15vh auto 0;
+  background: #453933;
+  padding: 10px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+#quote-box {
+  margin: none;
+  padding-top: 100px;
+  max-width: 80%;
+}
+
+#quote-text {
+  padding-top: 5%;
+  margin: 0px 25px;
+  font-size: 1.7em;
+}
+
+#tweet-quote {
+  text-decoration: none;
+  color: #00acee;
+  border-radius: 3px;
+  padding: 1px 5px 5px;
+  font-size: 1.5em;
+}
+
+#new-quote {
+  border: none;
+  color: black;
+  border-radius: 3px;
+  margin-left: 35%;
+  background: #deb0a0;
+  font-size: 1.3em;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+#new-quote:hover {
+  opacity: 1;
+  background: #deb0a0;
+  color: black;
+}
+
+#quote-author {
+  font-size: 1.4em;
+  padding-top: 3%;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  #quoteContainer {
+    width: 90%;
+  }
+}
