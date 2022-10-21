@@ -36,7 +36,6 @@ class Calculator extends React.Component {
         }),
         this.evaluateExpression
       );
-    } else if (isNaN(this.state.currentValue)) {
     }
   }
 
