@@ -20,12 +20,6 @@ function Contact() {
             </a>
           </Grid>
           <Grid container direction="row" alignItems="center">
-            <PhoneAndroidIcon />
-            <a id="phone" href="tel:0438420737">
-              0438420737
-            </a>
-          </Grid>
-          <Grid container direction="row" alignItems="center">
             <GitHubIcon />
             <a
               id="github"
